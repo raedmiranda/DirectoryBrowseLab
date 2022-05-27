@@ -19,16 +19,9 @@ jobs:
       
     - name: Setup NuGet
       uses: NuGet/setup-nuget@v1.0.6
-    
-    - name: Navigate to Workspace
-      run: cd $GITHUB_WORKSPACE
-
-    - name: Create Build Directory
-      run: mkdir _build
       
     - name: Restore Packages
       run: nuget restore DirectoryBrowseLab.sln
     
     - name: Build Solution
-      run: |
-        msbuild.exe DirectoryBrowseLab.sln /p:DeleteExistingFiles=True /p:platform="Any CPU" /p:configuration="Release" /p:PublishUrl="../_build"
+      run: msbuild.exe DirectoryBrowseLab.sln
