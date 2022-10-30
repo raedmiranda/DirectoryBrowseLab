@@ -28,5 +28,5 @@ Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r
 - Es requerido que tenga instalado [NET Framework 4.5](https://www.microsoft.com/es-es/download/details.aspx?id=30653).
 - Al cargar el proyecto, si aparece el mensaje: "La solución no se puede cargar...", aparecen también 2 opciones:
     1. Migrar a .NET Framework 4.6 (recomendado)
-    2. Descargar [.NET Framework 4.8] (https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48).
+    2. Descargar [.NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48).
 - Puede usar [Visual Studio Community](https://visualstudio.microsoft.com/es/vs/community/) 2012 o superior.
